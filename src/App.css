@@ -1,0 +1,21 @@
+/* write your css here */
+
+.scrollbar::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #e6e5e5;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #814bc9;
+    border-radius: 100vh;
+    cursor: pointer;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #6433a5;
+  }
